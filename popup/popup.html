@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+	<meta charset="UTF-8">
+	<title>TikTok Translator</title>
+	<style>
+	/* Reset và cấu hình cơ bản cho body */
+	
+	body {
+		width: 300px;
+		padding: 15px;
+		font-family: 'Segoe UI', Arial, sans-serif;
+		background-color: #0d1117;
+		color: #c9d1d9;
+		margin: 0;
+		border-radius: 8px;
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+		box-sizing: border-box;
+		/* Đảm bảo padding không làm vượt kích thước */
+	}
+	/* Tiêu đề chính */
+	
+	h3 {
+		margin: 0 0 10px;
+		font-size: 18px;
+		color: #e6edf3;
+		text-align: center;
+		line-height: 1.4;
+	}
+	/* Gợi ý refresh trang */
+	
+	h3 small {
+		display: block;
+		font-weight: normal;
+		font-size: 12px;
+		color: #b3b3b3;
+	}
+	/* Style cho select */
+	
+	select {
+		width: 100%;
+		padding: 8px;
+		font-size: 14px;
+		border: 1px solid #30363d;
+		border-radius: 4px;
+		background-color: #161b22;
+		color: #c9d1d9;
+		cursor: pointer;
+		transition: border-color 0.3s, box-shadow 0.3s;
+	}
+	
+	select:hover {
+		border-color: #58a6ff;
+	}
+	
+	select:focus {
+		outline: none;
+		border-color: #1f6feb;
+		box-shadow: 0 0 5px rgba(31, 111, 235, 0.5);
+	}
+	/* Style cho các option trong select */
+	
+	option {
+		padding: 5px;
+		background-color: #161b22;
+		color: #c9d1d9;
+	}
+	/* Footer chứa thông tin bản quyền và liên kết */
+	
+	footer {
+		margin-top: 15px;
+		padding-top: 10px;
+		border-top: 1px solid #30363d;
+		font-size: 12px;
+		text-align: center;
+		color: #8b949e;
+	}
+	
+	footer a {
+		color: #1f6feb;
+		text-decoration: none;
+		font-weight: bold;
+		transition: color 0.3s;
+	}
+	
+	footer a:hover {
+		text-decoration: underline;
+		color: #58a6ff;
+	}
+	/* Thông tin API nhỏ ở dưới cùng */
+	
+	footer p:last-child {
+		margin-top: 5px;
+		color: #888;
+	}
+	</style>
+</head>
+
+<body>
+	<!-- Tiêu đề và gợi ý -->
+	<h3>
+    Chọn ngôn ngữ cần dịch thành
+    <small>Cần refresh (F5) trang để áp dụng</small>
+  </h3>
+	<!-- Dropdown chọn ngôn ngữ -->
+	<select id="languageSelect">
+		<option value="vi">Tiếng Việt</option>
+		<option value="en">English (Tiếng Anh)</option>
+		<option value="zh">中文 (Tiếng Trung)</option>
+		<option value="hi">हिन्दी (Tiếng Hindi)</option>
+		<option value="es">Español (Tiếng Tây Ban Nha)</option>
+		<option value="fr">Français (Tiếng Pháp)</option>
+	</select>
+	<!-- Footer với thông tin bản quyền và liên kết -->
+	<footer>
+		<p>© 2025 DuckCIT</p>
+		<p> <a href="https://github.com/DuckTeamz/TikTok-Translator" target="_blank">Mã nguồn trên GitHub</a> </p>
+		<p>Sử dụng Google Translate API</p>
+	</footer>
+	<!-- Liên kết file JavaScript -->
+	<script src="popup.js"></script>
+</body>
+
+</html>

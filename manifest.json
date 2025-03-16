@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "TikTok Comment Translator",
+    "version": "1.0.0",
+    "description": "Thêm nút Dịch cho bình luận TikTok với ngôn ngữ tùy chọn",
+    "permissions": [
+        "storage",
+        "tabs",
+        "notifications"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.tiktok.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": "icons/icon.png"
+    },
+    "icons": {
+        "128": "icons/icon.png"
+    }
+}
