@@ -5,10 +5,10 @@
 	<meta charset="UTF-8">
 	<title>TikTok Translator</title>
 	<style>
-	/* Reset và cấu hình cơ bản cho body */
-	
 	body {
-		width: 300px;
+		min-width: 300px;
+		max-width: 500px;
+		width: auto;
 		padding: 15px;
 		font-family: 'Segoe UI', Arial, sans-serif;
 		background-color: #0d1117;
@@ -17,9 +17,7 @@
 		border-radius: 8px;
 		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 		box-sizing: border-box;
-		/* Đảm bảo padding không làm vượt kích thước */
 	}
-	/* Tiêu đề chính */
 	
 	h3 {
 		margin: 0 0 10px;
@@ -27,8 +25,8 @@
 		color: #e6edf3;
 		text-align: center;
 		line-height: 1.4;
+		white-space: nowrap;
 	}
-	/* Gợi ý refresh trang */
 	
 	h3 small {
 		display: block;
@@ -36,7 +34,6 @@
 		font-size: 12px;
 		color: #b3b3b3;
 	}
-	/* Style cho select */
 	
 	select {
 		width: 100%;
@@ -59,14 +56,12 @@
 		border-color: #1f6feb;
 		box-shadow: 0 0 5px rgba(31, 111, 235, 0.5);
 	}
-	/* Style cho các option trong select */
 	
 	option {
 		padding: 5px;
 		background-color: #161b22;
 		color: #c9d1d9;
 	}
-	/* Footer chứa thông tin bản quyền và liên kết */
 	
 	footer {
 		margin-top: 15px;
@@ -88,7 +83,6 @@
 		text-decoration: underline;
 		color: #58a6ff;
 	}
-	/* Thông tin API nhỏ ở dưới cùng */
 	
 	footer p:last-child {
 		margin-top: 5px;
@@ -98,27 +92,23 @@
 </head>
 
 <body>
-	<!-- Tiêu đề và gợi ý -->
-	<h3>
-    Chọn ngôn ngữ cần dịch thành
-    <small>Cần refresh (F5) trang để áp dụng</small>
-  </h3>
-	<!-- Dropdown chọn ngôn ngữ -->
+	<h3 id="mainHeading">
+		Chọn ngôn ngữ cần dịch thành
+		<small id="refreshHint">Cần refresh (F5) trang để áp dụng</small>
+	</h3>
 	<select id="languageSelect">
 		<option value="vi">Tiếng Việt</option>
 		<option value="en">English (Tiếng Anh)</option>
 		<option value="zh">中文 (Tiếng Trung)</option>
-		<option value="hi">हिन्दी (Tiếng Hindi)</option>
+		<option value="ru">Русский (Tiếng Nga)</option>
 		<option value="es">Español (Tiếng Tây Ban Nha)</option>
 		<option value="fr">Français (Tiếng Pháp)</option>
 	</select>
-	<!-- Footer với thông tin bản quyền và liên kết -->
 	<footer>
-		<p>© 2025 DuckCIT</p>
-		<p> <a href="https://github.com/DuckTeamz/TikTok-Translator" target="_blank">Mã nguồn trên GitHub</a> </p>
-		<p>Sử dụng Google Translate API</p>
+		<p id="copyright">© 2025 DuckCIT</p>
+		<p id="sourceLink"> <a href="https://github.com/DuckTeamz/TikTok-Translator" target="_blank">Mã nguồn trên GitHub</a> </p>
+		<p id="apiInfo">Sử dụng Google Translate API</p>
 	</footer>
-	<!-- Liên kết file JavaScript -->
 	<script src="popup.js"></script>
 </body>
 

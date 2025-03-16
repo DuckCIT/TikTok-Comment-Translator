@@ -1,58 +1,58 @@
 # TikTok Comment Translator
 
-TikTok Comment Translator là một tiện ích mở rộng cho Chrome, thêm nút dịch vào các bình luận trên TikTok, cho phép người dùng dịch bình luận sang ngôn ngữ ưa thích của họ.
+TikTok Comment Translator is a Chrome extension that adds a translate button to TikTok comments, allowing users to translate comments into their preferred language.
 
-## Tính năng
+## Features
 
-- Dịch bình luận TikTok sang nhiều ngôn ngữ.
-- Hỗ trợ các ngôn ngữ bao gồm Tiếng Việt, Tiếng Anh, Tiếng Trung, Tiếng Hindi, Tiếng Tây Ban Nha và Tiếng Pháp.
-- Tự động phát hiện ngôn ngữ nguồn và dịch sang ngôn ngữ đích.
-- Lưu ngôn ngữ đích đã chọn trong bộ nhớ của Chrome để sử dụng sau này.
+- Translate TikTok comments into multiple languages.
+- Supports languages including Vietnamese, English, Chinese, Hindi, Spanish, and French.
+- Automatically detects the source language and translates it to the target language.
+- Saves the selected target language in Chrome's storage for future use.
 
-## Cài đặt
+## Installation
 
-1. Clone hoặc tải về repository này.
-2. Mở Chrome và điều hướng đến `chrome://extensions/`.
-3. Bật "Chế độ nhà phát triển" bằng cách bật công tắc ở góc trên bên phải.
-4. Nhấp vào "Tải tiện ích đã giải nén" và chọn thư mục nơi bạn đã tải về hoặc clone repository này.
+1. Clone or download this repository.
+2. Open Chrome and navigate to `chrome://extensions/`.
+3. Enable "Developer mode" by toggling the switch in the top right corner.
+4. Click "Load unpacked" and select the folder where you downloaded or cloned this repository.
 
-## Sử dụng
+## Usage
 
-1. Nhấp vào biểu tượng tiện ích trong thanh công cụ của Chrome.
-2. Chọn ngôn ngữ đích ưa thích của bạn từ menu thả xuống (mặc định là tiếng Việt).
+1. Click the extension icon in the Chrome toolbar.
+2. Select your preferred target language from the dropdown menu (default is Vietnamese).
 <img src="screenshots/language-select.png"/>
-3. Làm mới trang TikTok để áp dụng thay đổi.
-4. Nhấp vào nút "Xem bản dịch" xuất hiện bên cạnh các bình luận để dịch chúng.
-<img src="screenshots/demo.png"/>
+3. Refresh the TikTok page to apply the changes.
+4. Click the "View Translation" button that appears next to comments to translate them.
+<img src="screenshots/demo.gif"/>
 
-## Phát triển
+## Development
 
-### Cấu trúc tệp
+### File Structure
 
-- `popup/popup.html`: Tệp HTML cho giao diện popup của tiện ích.
-- `popup/popup.js`: Tệp JavaScript để xử lý chức năng của popup.
-- `content.js`: Tệp script nội dung thêm các nút dịch vào bình luận TikTok.
-- `manifest.json`: Tệp manifest định nghĩa metadata và quyền của tiện ích.
+- `popup/popup.html`: HTML file for the extension's popup interface.
+- `popup/popup.js`: JavaScript file to handle the popup's functionality.
+- `content.js`: Content script that adds translate buttons to TikTok comments.
+- `manifest.json`: Manifest file defining the extension's metadata and permissions.
 
-### Thêm ngôn ngữ mới
+### Adding a New Language
 
-Để thêm hỗ trợ cho một ngôn ngữ mới:
-1. Cập nhật đối tượng `BUTTON_TEXT_MAP` trong `content.js` với các văn bản dịch của ngôn ngữ mới.
-2. Thêm tùy chọn ngôn ngữ mới trong `popup.html`.
+To add support for a new language:
+1. Update the `BUTTON_TEXT_MAP` object in `content.js` with the translation texts for the new language.
+2. Add the new language option in `popup.html`.
 
-## Giấy phép
+## License
 
-Dự án này được cấp phép theo Giấy phép MIT. Xem tệp [LICENSE](LICENSE) để biết chi tiết.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Ghi công
+## Credits
 
-- Phát triển bởi Nguyen Trong Duc (DuckCIT) © 2025
-- Sử dụng Google Translate API để dịch
+- Developed by Nguyen Trong Duc (DuckCIT) © 2025
+- Uses Google Translate API for translations
 
-## Đóng góp
+## Contributions
 
-Bạn có thể tự do phát triển dựa trên dự án này, nhưng vui lòng ghi nhận tác giả gốc. Sự tôn trọng của bạn dành cho tác phẩm gốc được trân trọng. Vui lòng mở một issue hoặc gửi một pull request trên GitHub.
+You are free to develop based on this project, but please credit the original author. Your respect for the original work is appreciated. Please open an issue or submit a pull request on GitHub.
 
-## Liên hệ
+## Contact
 
-Nếu có bất kỳ câu hỏi hoặc phản hồi nào, vui lòng liên hệ với tôi tại duckcitvn@gmail.com.
+If you have any questions or feedback, please contact me at duckcitvn@gmail.com.

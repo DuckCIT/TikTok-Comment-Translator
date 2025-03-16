@@ -1,0 +1,176 @@
+{
+	"vi": {
+		"popup": {
+			"mainHeading": "Chọn ngôn ngữ cần dịch thành",
+			"refreshHint": "Cần refresh (F5) trang để áp dụng",
+			"copyright": "© 2025 DuckCIT",
+			"sourceLink": "Mã nguồn trên GitHub",
+			"apiInfo": "Sử dụng Google Translate API",
+			"languageNames": {
+				"vi": "Tiếng Việt",
+				"en": "English (Tiếng Anh)",
+				"zh": "中文 (Tiếng Trung)",
+				"ru": "Русский (Tiếng Nga)",
+				"es": "Español (Tiếng Tây Ban Nha)",
+				"fr": "Français (Tiếng Pháp)"
+			}
+		},
+		"content": {
+			"translate": "Xem bản dịch",
+			"original": "Xem bản gốc",
+			"translating": "Đang dịch...",
+			"errors": {
+				"apiError": "API không phản hồi",
+				"invalidData": "Dữ liệu trả về không hợp lệ",
+				"translateError": "Lỗi dịch văn bản",
+				"initError": "Lỗi khởi tạo nút dịch",
+				"langDetectError": "Không thể phát hiện ngôn ngữ"
+			}
+		}
+	},
+	"en": {
+		"popup": {
+			"mainHeading": "Choose the language to translate into",
+			"refreshHint": "Need to refresh (F5) the page to apply",
+			"copyright": "© 2025 DuckCIT",
+			"sourceLink": "Source code on GitHub",
+			"apiInfo": "Using Google Translate API",
+			"languageNames": {
+				"vi": "Tiếng Việt (Vietnamese)",
+				"en": "English",
+				"zh": "中文 (Chinese)",
+				"ru": "Русский (Russian)",
+				"es": "Español (Spanish)",
+				"fr": "Français (French)"
+			}
+		},
+		"content": {
+			"translate": "View translation",
+			"original": "View original",
+			"translating": "Translating...",
+			"errors": {
+				"apiError": "API did not respond",
+				"invalidData": "Invalid response data",
+				"translateError": "Translation error",
+				"initError": "Error initializing translate button",
+				"langDetectError": "Could not detect language"
+			}
+		}
+	},
+	"zh": {
+		"popup": {
+			"mainHeading": "选择要翻译成的语言",
+			"refreshHint": "需要刷新 (F5) 页面以应用",
+			"copyright": "© 2025 DuckCIT",
+			"sourceLink": "GitHub上的源代码",
+			"apiInfo": "使用谷歌翻译API",
+			"languageNames": {
+				"vi": "Tiếng Việt (越南语)",
+				"en": "English (英语)",
+				"zh": "中文",
+				"ru": "Русский (俄语)",
+				"es": "Español (西班牙语)",
+				"fr": "Français (法语)"
+			}
+		},
+		"content": {
+			"translate": "查看翻译",
+			"original": "查看原文",
+			"translating": "翻译中...",
+			"errors": {
+				"apiError": "API无响应",
+				"invalidData": "返回数据无效",
+				"translateError": "翻译错误",
+				"initError": "初始化翻译按钮错误",
+				"langDetectError": "无法检测语言"
+			}
+		}
+	},
+	"ru": {
+		"popup": {
+			"mainHeading": "Выберите язык для перевода",
+			"refreshHint": "Необходимо обновить (F5) страницу для применения",
+			"copyright": "© 2025 DuckCIT",
+			"sourceLink": "Исходный код на GitHub",
+			"apiInfo": "Использование Google Translate API",
+			"languageNames": {
+				"vi": "Tiếng Việt (Вьетнамский)",
+				"en": "English (Английский)",
+				"zh": "中文 (Китайский)",
+				"ru": "Русский",
+				"es": "Español (Испанский)",
+				"fr": "Français (Французский)"
+			}
+		},
+		"content": {
+			"translate": "Посмотреть перевод",
+			"original": "Посмотреть оригинал",
+			"translating": "Перевод...",
+			"errors": {
+				"apiError": "API не ответил",
+				"invalidData": "Недопустимые данные ответа",
+				"translateError": "Ошибка перевода",
+				"initError": "Ошибка инициализации кнопки перевода",
+				"langDetectError": "Не удалось определить язык"
+			}
+		}
+	},
+	"es": {
+		"popup": {
+			"mainHeading": "Elige el idioma al que traducir",
+			"refreshHint": "Es necesario actualizar (F5) la página para aplicar",
+			"copyright": "© 2025 DuckCIT",
+			"sourceLink": "Código fuente en GitHub",
+			"apiInfo": "Usando la API de Google Translate",
+			"languageNames": {
+				"vi": "Tiếng Việt (Vietnamita)",
+				"en": "English (Inglés)",
+				"zh": "中文 (Chino)",
+				"ru": "Русский (Ruso)",
+				"es": "Español",
+				"fr": "Français (Francés)"
+			}
+		},
+		"content": {
+			"translate": "Ver traducción",
+			"original": "Ver original",
+			"translating": "Traduciendo...",
+			"errors": {
+				"apiError": "La API no respondió",
+				"invalidData": "Datos de respuesta inválidos",
+				"translateError": "Error de traducción",
+				"initError": "Error al inicializar el botón de traducción",
+				"langDetectError": "No se pudo detectar el idioma"
+			}
+		}
+	},
+	"fr": {
+		"popup": {
+			"mainHeading": "Choisissez la langue de traduction",
+			"refreshHint": "Il faut actualiser (F5) la page pour appliquer",
+			"copyright": "© 2025 DuckCIT",
+			"sourceLink": "Code source sur GitHub",
+			"apiInfo": "Utilisation de l'API Google Translate",
+			"languageNames": {
+				"vi": "Tiếng Việt (Vietnamien)",
+				"en": "English (Anglais)",
+				"zh": "中文 (Chinois)",
+				"ru": "Русский (Russe)",
+				"es": "Español (Espagnol)",
+				"fr": "Français"
+			}
+		},
+		"content": {
+			"translate": "Voir la traduction",
+			"original": "Voir l’original",
+			"translating": "Traduction...",
+			"errors": {
+				"apiError": "L’API n’a pas répondu",
+				"invalidData": "Données de réponse invalides",
+				"translateError": "Erreur de traduction",
+				"initError": "Erreur d’initialisation du bouton de traduction",
+				"langDetectError": "Impossible de détecter la langue"
+			}
+		}
+	}
+}

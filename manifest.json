@@ -1,13 +1,19 @@
 {
     "manifest_version": 3,
     "name": "TikTok Comment Translator",
-    "version": "1.0.0",
-    "description": "Thêm nút Dịch cho bình luận TikTok với ngôn ngữ tùy chọn",
+    "version": "1.0.1",
+    "description": "Add a Translate button for TikTok comments with optional languages",
     "permissions": [
         "storage",
         "tabs",
         "notifications"
     ],
+    "web_accessible_resources": [
+		{
+			"resources": ["data/languages.json"],
+			"matches": ["<all_urls>"]
+		}
+	],
     "background": {
         "service_worker": "background.js"
     },
